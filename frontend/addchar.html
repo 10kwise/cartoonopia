@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="addcharform" action="/register" method="POST">
+        <input type="text" name="id" placeholder="id" required>
+        <!-- Rounded switch -->
+        <label class="active">
+            <input type="checkbox" name="active">
+            <span class="slider round"></span>
+        </label>
+        <!-- <input type="text" name="active" placeholder="active" required> -->
+        <input type="text" name="name" placeholder="name" required>
+        <input type="text" name="subtitle" placeholder="subtitle" required>
+        <input type="text" name="description" placeholder="description" required>
+        <input type="text" name="image" placeholder="image" required>
+        <input type="number" name="strength" placeholder="strength" required>
+        <input type="number" name="speed" placeholder="speed" required>
+        <input type="number" name="skill" placeholder="skill" required>
+        <input type="number" name="fear_factor" placeholder="fear_factor" required>
+        <input type="number" name="power" placeholder="power" required>
+        <input type="number" name="intelligence" placeholder="intelligence" required>
+        <input type="number" name="wealth" placeholder="wealth" required>
+
+        <button type="submit">submit</button>
+    </form>
+
+    <script src="frontend/javascript/main.js"></script>
+</body>
+</html>
